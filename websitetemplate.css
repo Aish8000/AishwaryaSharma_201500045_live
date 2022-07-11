@@ -1,0 +1,103 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+html {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(207, 202, 202);
+    background: rgba(55, 52, 52, 0.7) url('https://media.istockphoto.com/photos/low-angle-of-cheerful-interracial-couple-wearing-modern-headphones-in-picture-id1149355783?k=20&m=1149355783&s=612x612&w=0&h=EYZhLmBl3JDTUNYlzV8v71OyiRhFONANzDbKgW-yiLU=');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 2.5rem;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-point {
+    padding: 20px 10px;
+    margin-top: 1.5rem;
+}
+
+.left-point:hover {
+    color: rgb(255, 106, 0);
+    text-decoration: underline;
+}
+
+.right h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2.5rem;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+header h5 {
+    text-align: center;
+    font-size: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.buttons {
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: flex;
+    width: 35%;
+}
+
+.buttons h4 {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(255, 128, 0);
+    background-color: rgb(255, 128, 0);
+    border-radius: 35px;
+    width: 10rem;
+    text-align: center;
+}
+
+span {
+    color: rgb(255, 128, 0);
+}
+
+footer {
+    display: flex;
+    background: white;
+    color: black;
+    margin-top: 20px;
+}
+
+footer h3 {
+    margin: 20px auto;
+}
+
+.detail {
+    border: none;
+    font-size: 1rem;
+}
